@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+
+
+#container {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    /*background: url(../assets/images/background-armonica.jpg);*/
+    color: black;
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(.25rem);
+}
+
+header,
+nav,
+main,
+footer {
+    font-family: 'Martian Mono', monospace;
+    font-size: large;
+    
+}
+
+h1,
+h2,
+h3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.portada {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+p.welcome {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2rem;
+    font-weight: .625rem;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
+a {
+    text-decoration: none;
+    align-items: center;
+    color: black;
+}
+
+
+.armofam,
+.tipoarmo {
+    width: 200px;
+    box-shadow: .3125rem 5px #808080;
+    background-color: rgb(220, 219, 219);
+    border-radius: .3125rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.textarmofam {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 10rem 0 10rem;
+    align-items: center;
+    margin-top: 1.4375rem;
+}
+
+.imgnosotros {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 2rem 0 4rem 0;
+}
+
+p.textnosotros1,
+.textnosotros2 {
+    margin: 2rem;
+    background-color: #d7d7d7;
+    margin: 1rem;
+    padding: 2rem;
+    border: 1px solid black;
+    box-shadow: 0rem 0.125rem .3125rem rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+.construccion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+a {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    align-items: center;
+    color: black;
+}
+
+.copyright {
+    text-align: end;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: 1.3125rem;
+    margin-left: 1rem;
+}
+
+.contacto {
+    max-width: 450px;
+    margin: auto;
+    padding: 2rem;
+    border: 1px solid black;
+    box-shadow: 0rem 0.125rem .3125rem rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    background-color: #d7d7d7;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid;
+    text-decoration: none;
+    margin: 2rem;
+    padding: .9375rem;
+    align-items: flex-end;
+    font-weight: bold;
+}
+
+.whatsapp{ 
