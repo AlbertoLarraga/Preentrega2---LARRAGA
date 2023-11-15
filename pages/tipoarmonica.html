@@ -1,26 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tipos de Armónicas</title>
-    <link rel="shorcut icon" href="../imagenes/icono-armonica.png">
+    <title>Mundo Armónica</title>
+    <link rel="shorcut icon" href="imagenes/icono-armonica.png">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body id="container">
     <header class="header">
-        <div id="nav">
-            <nav class="nav">
-                <a href="../index.html"><strong>Inicio</strong></a>
-                <a href="./tipoarmonica.html"><strong>Tipos de armónicas</strong></a>
-                <a href="./armofamosos.html"><strong>Armonicistas famosos</strong></a>
-                <a href="./contacto.html"><strong>Contacto</strong></a>
-                <a href="./nosotros.html"><strong>Sobre Nosotros</strong></a>
-                <a href="./tienda.html"><strong>Tienda</strong></a>
+        <nav class="navbar sticky-top navbar-light bg-light">
+            <a class="navbar-brand" href="#">Mundo Armónica</a>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="../index.html">Inicio <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tipoarmonica.html">Tipos de armónicas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="armofamosos.html">Armonicistas famosos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tienda.html">Tienda</a>
+                        </li>
+                    </ul>
+
+                </div>
             </nav>
-        </div>
+        </nav>
         <h2>Tipos de Armónicas</h2>
     </header>
     <main>
@@ -40,12 +67,15 @@
     </main>
     <footer>
         <div class="footer">
-            <a href="instagram">Instagram</a>
-            <a href="facebook">Facebook</a>
-            <a href="discord">Discord</a>
+            <a href="instagram"><i class="fa-brands fa-instagram" style="color: #000000;"></i></a>
+            <a href="facebook"><i class="fa-brands fa-facebook" style="color: #000000;"></i></a>
+            <a href="discord"><i class="fa-brands fa-discord" style="color: #000000;"></i></a>
+            <a href="github"><i class="fa-brands fa-github" style="color: #000000;"></i></a>
         </div>
+        
         <p class="copyright">Alberto Larraga &copy; 2023</p>
     </footer>
+    <script src="../js/bootstrap.js"></script>
 </body>
 
 </html>
